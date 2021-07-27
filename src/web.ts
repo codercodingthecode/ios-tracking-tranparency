@@ -1,12 +1,26 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { AppTrackingTransparencyPlugin } from './definitions';
+import type {
+  AppTrackingTransparencyPlugin,
+  AuthorizationStatus,
+} from './definitions';
 
 export class AppTrackingTransparencyWeb
   extends WebPlugin
   implements AppTrackingTransparencyPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async requestTrackingAuthorization(): Promise<{
+    status: AuthorizationStatus;
+    code: number;
+  }> {
+    return {
+      status: 'null',
+      code: 999,
+    };
+  }
+  async trackingAuthorizationStatus(): Promise<{
+    status: AuthorizationStatus;
+    code: number;
+  }> {
+    return { status: 'null', code: 999 };
   }
 }

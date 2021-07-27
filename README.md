@@ -6,14 +6,41 @@ Capacitor ios tracking transparency plugin
 
 ```bash
 npm install ios-tracking-transparency
+yarn add ios-tracking-transparency
 npx cap sync
 ```
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`requestTrackingAuthorization()`](#requesttrackingauthorization)
+* [`trackingAuthorizationStatus()`](#trackingauthorizationstatus)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### requestTrackingAuthorization()
+
+```typescript
+requestTrackingAuthorization() => any
+```
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### trackingAuthorizationStatus()
+
+```typescript
+trackingAuthorizationStatus() => any
+```
+
+**Returns:** <code>any</code>
+
+--------------------
+
 </docgen-api>

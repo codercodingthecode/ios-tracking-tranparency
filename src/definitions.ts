@@ -1,3 +1,16 @@
+export type AuthorizationStatus =
+  | 'authorized'
+  | 'denied'
+  | 'notDetermined'
+  | 'restricted'
+  | 'null';
 export interface AppTrackingTransparencyPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  requestTrackingAuthorization(): Promise<{
+    status: AuthorizationStatus;
+    code: number;
+  }>;
+  trackingAuthorizationStatus(): Promise<{
+    status: AuthorizationStatus;
+    code: number;
+  }>;
 }
