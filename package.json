@@ -1,6 +1,6 @@
 {
   "name": "ios-tracking-transparency",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Capacitor ios tracking transparency plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "IosTrackingTransparency.podspec"
   ],
-  "author": "Andy - Codercodingthecode",
+  "author": "Andy - codercodingthecode",
   "license": "MIT",
   "repository": {
     "type": "git",
