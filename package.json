@@ -1,6 +1,6 @@
 {
   "name": "ios-tracking-transparency",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Capacitor ios tracking transparency plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -41,6 +41,7 @@
     "build": "npm run clean && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
+    "rimraf": "./node_modules/rimraf/bin.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
