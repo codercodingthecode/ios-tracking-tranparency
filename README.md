@@ -1,7 +1,8 @@
 # ios-tracking-transparency
-
+#### NPM
+[![ios-tracking-transparency](https://github.com/codercodingthecode/ios-tracking-tranparency/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/codercodingthecode/ios-tracking-tranparency/actions/workflows/publish.yml)
 Capacitor plugin for ios tracking transparency <p>
-NPM
+
 https://www.npmjs.com/package/ios-tracking-transparency
 
 ## Install
