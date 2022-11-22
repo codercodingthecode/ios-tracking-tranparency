@@ -1,6 +1,6 @@
 {
   "name": "ios-tracking-transparency",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Capacitor ios tracking transparency plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
