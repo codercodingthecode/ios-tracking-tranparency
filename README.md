@@ -1,8 +1,8 @@
 # ios-tracking-transparency
 
-Capacitor plugin for ios tracking transparency
-
-Tested with Capacitor v3
+Capacitor plugin for ios tracking transparency <p>
+NPM
+https://www.npmjs.com/package/ios-tracking-transparency
 
 ## Install
 
